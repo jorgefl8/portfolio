@@ -43,7 +43,7 @@ const App = () => {
     <div>
       <h1>Aplicación con tema dinámico</h1>
       <p>El tema actual es: {currentTheme}</p>
-      <Button label={`Cambiar a ${currentTheme === 'dark' ? 'Light' : 'Dark'}`} onClick={toggleTheme} />
+      <Button outlined label={`Cambiar a ${currentTheme === 'dark' ? 'Light' : 'Dark'}`} onClick={toggleTheme} />
     </div>
   );
 };
