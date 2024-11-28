@@ -41,8 +41,8 @@ const App = () => {
 
   return (
     <div>
-      <h1>Aplicación con tema dinámico</h1>
-      <p>El tema actual es: {currentTheme}</p>
+      <h1>Portfolio in development:</h1>
+      Try this feature:
       <Button outlined label={`Cambiar a ${currentTheme === 'dark' ? 'Light' : 'Dark'}`} onClick={toggleTheme} />
     </div>
   );
